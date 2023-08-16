@@ -1,0 +1,79 @@
+rascunho do index:
+<!-- <header class="barbie">
+        <div class="menu">
+         <nav>
+         <ul>
+         <a href="./index.html">
+                <li>Home</li>
+         <a href="./contato.html" target="_blank">
+            <li>Contato</li>
+         </a>
+         <a href="./fotos.html" target="_blank">
+            <li>Fotos</li>
+         </a>
+         <a href="./comentarios.html" target="_blank">
+            <li>Comentarios</li>
+         </a>
+         </ul>
+         </nav>
+         </div>
+
+    </header> -->
+
+    <!-- <div Class="imagefnd">
+
+ </div> -->
+
+ rascunho do styles:
+
+ .barbie{
+    height: 100px;
+    width:  200px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+} 
+
+
+.menu{
+    height: 100%;
+    width: 1365px;
+    background-color: violet;
+}
+.imagefnd{
+    height: 500px;
+    width: 100%;
+    background-image: url(./segunda\ tela\ de\ fundo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+ @media(min-width:480){ 
+    .barbie{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(min-width:768){ 
+    .barbie{
+    grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(min-width:1280){ 
+    .barbie{
+    grid-template-columns: repeat(4,1fr);
+    }
+}
+/* body{
+    height: 200vh;
+    width:  200vw;
+} */
+/* .minhadiv{
+    width: 200px;
+    height: 100px;
+    
+
+} */
